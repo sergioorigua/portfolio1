@@ -1,0 +1,358 @@
+@font-face {
+    font-family:Product Sans;
+    src: url(fonts/Product\ Sans\ Regular.ttf);
+  }
+@font-face {
+    font-family:Merienda;
+    src: url(fonts/Merienda-Regular.ttf);
+  }
+@font-face {
+    font-family:Satisfy;
+    src: url(fonts/Satisfy-Regular.ttf);
+  }
+ body{
+     background-image: url(img/rain.gif);
+     background-size: 1250px;
+ }
+  .jumbotron {
+    background-color: #252525;
+    color: #000000;
+    height: 60px;
+    padding-top: 7px;
+    margin-bottom: 1px;
+  }
+
+  .jumb_f {
+    font-family: Product Sans Bold;
+    font-size: 30px;
+    color: rgb(221, 221, 221);
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+
+  .alt{
+    font-family: Product Sans Bold;
+    font-size: 30px;
+    color: rgb(125, 61, 198);
+  }
+  .caja{
+      height: 30vw;
+  }
+.text2{
+    font-family: Satisfy;
+    font-size: 20vw;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 30px;padding-bottom: 50px;
+    transition: ease-in-out 0.4s;
+}
+.text2:hover{
+    transition: ease-in-out 0.4s;
+    color: #cc61f9;
+}
+.text3{
+    font-family: Merienda;
+    font-size: 2.5vw;
+    text-align: center;
+    color: #c597d5;
+    padding-top: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+}
+.text4{
+    font-family: Merienda;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    color: #777777;
+    padding-top: 0px;
+}
+.text5{
+    font-family: Satisfy;
+    font-size: 10vw;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 100px;padding-bottom: 40px;
+    transition: ease-in-out 0.4s;
+}
+.text6{
+    font-family: Merienda;
+    font-size: 2vw;
+    text-align: center;
+    color: #c597d5;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.text62{
+    font-family: Merienda;
+    font-size: 2vw;
+    text-align: center;
+    color: #252525;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.text7{
+    font-family: Merienda;
+    font-size: 3vw;
+    text-align: center;
+    color: #8566bd;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.text8{
+    font-family: Merienda;
+    font-size: 18px;
+    text-align: left;
+    color: #c6c0c0;
+    padding-top: 5%;
+}
+.text9{
+    font-family: Merienda;
+    font-size: 16px;
+    text-align: left;
+    color: #c6c0c0;
+    padding-bottom: 10px;
+}
+.tit{
+    font-size: 3vw;
+}
+.separa{
+    padding-top: 60px;
+}
+  .navbar { /*--estilo barra navegador*/
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 0;
+    margin-bottom: 0px;
+    border-color: transparent;
+    background-color: #252525;
+ }
+ .navbar2{
+    position: sticky;
+    top: 0;
+    z-index: 6;
+ }
+ .navbar3{
+    position: sticky;
+    top: 70px;
+    background-color: #6e6c6c;
+    z-index: 5;
+ }
+ .z4{
+    z-index: 4;
+ }
+ .navbar3 .container{
+    position: sticky;
+    top: 100px;
+    background-color: #6e6c6c;
+ }
+ .f_nav_sel{
+    transition: ease-in-out 0.2s;
+    font-size: 19px;
+    color: rgb(83, 36, 136);
+ }
+
+ .f_nav_sel:hover{
+    transition: ease-in-out 0.2s;
+   text-decoration:underline;
+ }
+ .f_nav{
+    transition: ease-in-out 0.2s;
+    font-size: 19px;
+    color: rgb(221, 221, 221);
+ }
+
+ .f_nav:hover{
+    transition: ease-in-out 0.2s;
+    font-size: 150%;
+    text-decoration:underline;
+    color:rgb(125, 61, 198);
+ }
+ .f_nav2{
+    transition: ease-in-out 3s;
+    font-family: Satisfy;
+    font-size: 25px;
+    color: rgb(221, 221, 221);
+ }
+
+ .f_nav2:hover{
+    transition: ease-in-out 0.2s;
+    color:#bb88e2;
+ }
+ .f_nav3{
+    transition: ease-in-out 0.2s;
+    font-size: 19px;
+    color: rgb(221, 221, 221);
+ }
+
+ .f_nav3:hover{
+    transition: ease-in-out 0.5s;
+    font-size: 150%;
+    text-decoration:underline;
+    color:rgb(58, 26, 94);
+ }
+ .video1{
+     width: 80%;
+     height: 500px;
+     margin:  0;
+ }
+  .container{
+    font-family: Product Sans;
+    background-color: #252525;
+  }
+
+  .container2{
+    font-family: Product Sans;
+    background-color: rgb(221, 221, 221);;
+  }
+
+  .container-fluid{
+    font-family: Product Sans;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    
+  }
+
+  .container-fluid2{
+    font-family: Product Sans;
+    padding-top: 1px;
+    padding-bottom: 1px; 
+  }
+.margen{
+    margin: 50px;
+    border-radius: 50px;
+}
+  img.rounded-corners {
+    border-radius: 50px;
+  }
+
+  h3 {
+    
+    font-family: Product Sans;
+  }
+
+  .inf{
+    font-family: Product Sans;
+    background-color: rgb(221, 221, 221);
+  }
+  .inf2{
+    font-family: Product Sans;
+    background-color: #252525;
+  }
+
+  .piepag{
+    font-family: Product Sans;
+    background-color: #252525;
+  }
+ 
+  .bg-1 { 
+    background-color: rgb(221, 221, 221);
+    color: #000000;
+  }
+  .bg-2 { 
+    background-color: #252525; 
+    color: #000000;
+  }
+  .bg-3 { 
+    background: rgba(125, 61, 198,0.3);
+  }
+  .bg-4 { 
+    background: rgba(125, 61, 198,1);
+    color: rgb(0, 0, 0);
+  }
+  .bg-5 { 
+    background: rgba(36, 46, 67,0.7);
+  }
+  .item{
+    font-family: Product Sans;
+    margin-top: 5px;
+  }
+
+  .itemCon{
+    font-family: Product Sans;
+    margin-top: 10px;
+  }
+
+  .carousel{background: rgb(221, 221, 221);}
+  .carousel-control.right, .carousel-control.left { /*--estilo banner--*/
+  background-image: none;
+  color: rgb(125, 61, 198);
+}
+.carousel-indicators li {
+  border-color: rgb(125, 61, 198);
+}
+.carousel-indicators li.active {
+  background-color: rgb(125, 61, 198);
+}
+
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 50px 0;
+}
+
+.item span {
+  font-style: normal;
+}
+button{ /*--estilo mi boton-->*/
+            font-family:Product Sans;
+            font-size: 18px;
+            padding: 10px 10px;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            width: 40%;
+            background-color: rgb(125, 61, 198);;
+            background-size: contain;
+            border: 0px solid #a78a7f;
+            border-radius: 20px;
+            color: rgb(221, 221, 221);
+            font-weight: 550;
+}
+
+.button2{ /*--estilo mi boton-->*/
+  font-family:Merienda;
+  font-size: 1pvw;
+  padding: 10px 10px;
+  margin-top: 50px;
+  width: 2vw;
+  background-color: rgb(125, 61, 198);;
+  background-size: contain;
+  border: 0px solid #a78a7f;
+  border-radius: 20px;
+  color: rgb(221, 221, 221);
+}
+.button3{ /*--estilo mi boton-->*/
+    font-family:Merienda;
+    font-size: 1pvw;
+    background-color: #252525;
+    background-size: contain;
+    border: 0px solid #a78a7f;
+    border-radius: 20px;
+    color: rgb(125, 61, 198);;
+  }
+
+button:hover{
+  opacity: 0.75;
+}
+.imagen{
+    float:  center;
+width: auto;}
+.pres{
+    padding-top: 40px;
+    float: center;
+    width: 50%;
+}
+.columna{float:  center}
+table, th, td {
+  border: 1px solid;
+}
+  
